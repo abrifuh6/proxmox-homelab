@@ -1,4 +1,4 @@
-# 🏠 Homelab Infrastructure
+# 🏠 Home-lab Infrastructure
 
 This repository documents my **personal homelab setup** — starting with an old PC upgraded with ~$150 in RAM and SSD, now running Proxmox VE and multiple services.
 
@@ -37,13 +37,13 @@ The goal is to create a **scalable and educational environment** for learning vi
 
 ## 🖥 Services Running
 
-| Service    | Host / Node         | Purpose                                   | Status |
-|------------|---------------------|-------------------------------------------|--------|
-| **Proxmox VE** | Bare metal (`192.168.1.73`) | Virtualization platform for VMs and LXCs | ✅ Running |
-| **Ubuntu Homelab Server** | VM in Proxmox | Sandbox for Linux projects | ✅ Running |
-| **Jenkins** | VM in Proxmox | CI/CD pipelines for testing projects | ✅ Running |
-| **Sonatype Nexus** | VM in Proxmox | Local artifact registry (Maven/Docker) | ✅ Running |
-| **WireGuard VPN** | VM (Proxmox) | Secure remote access into homelab | ⚠️ Installed, not yet configured |
+| Service                   | Host / Node                 | Purpose                                  | Status                           |
+|---------------------------|-----------------------------|------------------------------------------|----------------------------------|
+| **Proxmox VE**            | Bare metal (`192.168.1.73`) | Virtualization platform for VMs and LXCs | ✅ Running                        |
+| **Ubuntu Homelab Server** | VM in Proxmox               | Sandbox for Linux projects               | ✅ Running                        |
+| **Jenkins**               | VM in Proxmox               | CI/CD pipelines for testing projects     | ✅ Running                        |
+| **Sonatype Nexus**        | VM in Proxmox               | Local artifact registry (Maven/Docker)   | ✅ Running                        |
+| **WireGuard VPN**         | VM (Proxmox)                | Secure remote access into homelab        | ⚠️ Installed, not yet configured |
 
 ---
 
@@ -95,4 +95,5 @@ This homelab shows how far you can go with **minimal investment** (~$150 in upgr
 It’s the base for **DevOps learning, automation testing, and infrastructure projects**.
 
 As the setup grows, new nodes, storage, and monitoring will be added — moving toward a **production-like cluster environment**.
+
 
